@@ -1,0 +1,20 @@
+// mars robot 1
+
+/* Initial beliefs */
+
+at(P) :- pos(P,X,Y) & pos(r1,X,Y).
+
+/* Initial goal */
+
+!random(slots).
+
+/* Plans */
+
++!random(slots).
+
+
+@lg[atomic]
+
+
+
+
